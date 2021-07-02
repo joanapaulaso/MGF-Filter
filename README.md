@@ -1,4 +1,5 @@
 # MGF-Filter
+![MGF-Filter](https://raw.githubusercontent.com/joanapaulaso/MGF-Filter/main/mgf-filter.png)
 #### This is a very simple application in which you can filter an MS/MS ".mgf" extension file that has a "SCANS" line as an ion identificator, so it can be used within SIRIUS.
 
 I created this app, because by using MS-DIAL to process metabolomics data, I usually use MetaboAnalyst to filter the table exported from MS-DIAL. Afterwards, I end up with a list of IDs way shorter than it was initially exported. So, in order to use precisely those filtered IDs from the new table within SIRIUS software, MGF-Filter does the trick.
