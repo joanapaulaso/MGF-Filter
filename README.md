@@ -13,7 +13,7 @@ Or you can access the "dist" folder and run the executable.
 1. The IDs File is a simple ".txt" file with the list of IDs you want to filter within the ".mgf" file (the ones you want to keep), separeted by a line break. Do not add any other text separator nor a table header.
 2. The MGF Original File, of course, is the ".mgf" exported from MS-DIAL (as the GNPS export option).
 3. Give it a beautiful filename.
-4. Click Convert!
+4. Click on "Filter, please"!
 
 The new filtered MGF file will show up within the same folder that you ran the application.
 #### Example files are given

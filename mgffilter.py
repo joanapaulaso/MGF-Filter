@@ -36,6 +36,8 @@ def open_txt_file():
         each_id = id.replace(id, scan_str + id + "&")
         new_ids.append(each_id)  # list
 
+    ids_file.close()
+
 
 def open_mgf_file():
     global mgf_file
@@ -55,6 +57,7 @@ def open_mgf_file():
                 mol = mol.replace("SCANS", "NAME")
                 included.append(mol)
 
+    mgf_file.close()
 
 file_btn_1 = Button(window,
                     text="Open IDs File (.txt)",
@@ -83,7 +86,7 @@ def create_file():
 
 
 run_app = Button(window,
-                 text="Convert!",
+                 text="Filter, please.",
                  command=create_file,
                  font="Arial",
                  bg="#bf1782",
